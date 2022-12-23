@@ -12,7 +12,7 @@ contract Lottery {
 
     //public payabale address called players
     address payable[] public players;
-    address payable recentWinner;
+    address payable public recentWinner;
     uint256 public usdEntryFee;
     AggregatorV3Interface internal ethUsdPriceFeed;
     address public owner;
